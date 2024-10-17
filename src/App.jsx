@@ -7,6 +7,7 @@ export default function App() {
       <NavBar />
       <Button ButtonText="Hi oi" ButtonHeight="" ButtonWidth="10"
       />
+      <News></News>
     </div>
   )
 }
