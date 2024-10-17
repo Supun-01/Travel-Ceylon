@@ -1,7 +1,7 @@
 function NavBar() {
     return (
         <div className="border border-black px-8 py-5 lg:px-20 lg:py-10 bg-white">
-            <navbar className="flex flex-wrap justify-between">
+            <nav className="flex flex-wrap justify-between">
                 <div className=" md:text-3xl lg:text-4xl text-pink-600">
                     TravelCeylon
                 </div>
@@ -21,7 +21,7 @@ function NavBar() {
                     </div>
                 </div>
 
-            </navbar>
+            </nav>
         </div>
     )
 }
