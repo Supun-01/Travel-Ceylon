@@ -10,8 +10,10 @@ function Searchbar() {
           name="query"
           placeholder="Search here..."
           required
-        ></input>
+        >
         <button type="submit">Search</button>
+        </input>
+        
       </form>
     </div>
   );
