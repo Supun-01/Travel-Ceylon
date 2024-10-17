@@ -1,5 +1,8 @@
 function Button(props) {
+    // Change the height of the button.
     const paddingHight = (props.ButtonHeight != "") ? String(`py-${parseInt(props.ButtonHeight)}`) : "py-2";
+
+    // Change the width of the button.
     const paddingWidth = (props.ButtonWidth != "") ? String(`px-${parseInt(props.ButtonWidth)}`) : "px-2"
 
 

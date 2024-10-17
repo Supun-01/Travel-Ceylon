@@ -5,8 +5,7 @@ export default function App() {
   return (
     <div>
       <NavBar />
-      <Button ButtonText="Click Me!" ButtonHeight=""
-        ButtonWidth="10"
+      <Button ButtonText="Hi oi" ButtonHeight="" ButtonWidth="10"
       />
     </div>
   )
