@@ -3,15 +3,12 @@ import React from "react";
 function Searchbar() {
   return (
     <div>
-      <form action="/search" method="GET">
-        <input
-          type="text"
-          name="query"
-          placeholder="Search here..."
-          required
-        ></input>
-        <button type="submit">Search</button>
-      </form>
+        <div>
+            <div>
+                <input type="text" placeholder="Search here..." required/>
+                <button type="submit">🔍</button>
+            </div>
+        </div>
     </div>
   );
 }
