@@ -17,7 +17,7 @@ function NavBar() {
                         About Us
                     </div>
                     <div>
-                        Contact
+                        Contacts
                     </div>
                 </div>
 
