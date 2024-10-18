@@ -4,6 +4,7 @@ import image2 from "../../assets/02.jpg";
 import image3 from "../../assets/03.jpg";
 import image4 from "../../assets/04.jpg";
 import CardComponent from './CardComponent';
+import MyButton from '../subComponents/MyButton';
 
 const CardContainer = () => {
   const cardDataRow1 = [
@@ -58,9 +59,16 @@ const CardContainer = () => {
         ))}
       </div>
       <div className="text-center mt-8">
-        <button className="border border-pink-400 text-pink-400 px-4 py-2 rounded-lg hover:bg-pink-400 hover:text-white">
-          Load More
-        </button>
+        <MyButton
+          buttonContent="Load More"
+          buttonWidth="40"
+          buttonHeight=""
+          buttonColor=""
+          buttonTextColor="#db2777"
+
+          buttonBoderColor="#db2777"
+          buttonBorderWidth="1px"
+        />
       </div>
     </div>
   );
