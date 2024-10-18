@@ -7,10 +7,9 @@ export default function App() {
   return (
     <div>
       <NavBar />
-      <Button ButtonText="Hi oi" ButtonHeight="" ButtonWidth="10"
-
-      />
-      <CardContainer />
+      <div className="mx-8 lg:mx-20">
+        <CardContainer />
+      </div>
     </div>
   )
 }

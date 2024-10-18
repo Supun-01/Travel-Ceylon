@@ -1,6 +1,6 @@
 function NavBar() {
     return (
-        <div className="border border-black px-8 py-5 lg:px-20 lg:py-10 bg-white">
+        <div className="py-5 px-5 lg:px-20 lg:py-4 bg-white sm:text-lg">
             <nav className="flex flex-wrap justify-between">
                 <div className=" md:text-3xl lg:text-4xl text-pink-600">
                     TravelCeylon
@@ -17,10 +17,9 @@ function NavBar() {
                         About Us
                     </div>
                     <div>
-                        Contacts
+                        Contact
                     </div>
                 </div>
-
             </nav>
         </div>
     )
