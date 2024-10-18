@@ -8,7 +8,7 @@ function MyButton(props) {
     const borderWidth = props.buttonBorderWidth
 
     return (
-        <div className="my-10 py-2">
+        <div className="">
 
             <button style={{
                 paddingLeft: paddingX,
