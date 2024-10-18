@@ -14,10 +14,10 @@ function Footer() {
                     TravelCeylon
                 </div>
                 <div className="flex flex-wrap gap-4">
-                    <a href="#"><FaFacebook className="text-blue-600" /></a>
-                    <a href="#"><FaYoutube className="text-red-600" /></a>
-                    <a href="#"><FaXTwitter /></a>
-                    <a href="#"><FaTiktok /></a>
+                    <a href="#"><FaFacebook className="text-blue-600 hover:text-blue-700" /></a>
+                    <a href="#"><FaYoutube className="text-red-600 hover:text-red-700" /></a>
+                    <a href="#"><FaXTwitter className="hover:text-gray-700" /></a>
+                    <a href="#"><FaTiktok className="hover:text-gray-700" /></a>
                 </div>
             </div>
             <div className="text-center mt-2">
