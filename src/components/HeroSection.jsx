@@ -4,7 +4,7 @@ import SigiriyaImg from '../assets/text/02.jpg'
 import EllaImg from '../assets/text/03.jpg'
 import MyButton from "./subComponents/MyButton"
 
-function SupunHeroSection() {
+function HeroSection() {
     return (
         <div>
             <div className="flex flex-wrap lg:my-16">
