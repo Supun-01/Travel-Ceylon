@@ -53,4 +53,4 @@ function SupunHeroSection() {
     )
 }
 
-export default SupunHeroSection
+export default HeroSection
