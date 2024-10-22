@@ -6,7 +6,7 @@ function Herosectwo() {
       <div className="flex flex-col  h-screen">
         {/* tittle bar */}
         <div className=" mb-4 h-1/6 p-8 flex justify-center">
-            <p className="text-4xl tracking-wider font-semibold">Why You Want To Select Us</p>
+          <p className="text-4xl tracking-wider font-semibold">Why You Want To Select Us</p>
         </div>
 
         <div className="flex flex-row space-x-4 h-5/6">

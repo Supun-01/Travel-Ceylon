@@ -43,7 +43,7 @@ const CardContainer = () => {
 
   return (
     <div className="container mx-auto mt-8">
-      <h2 className="text-center text-3xl lg:text-5xl font-bold text-pink-500 mb-6">
+      <h2 className="text-center text-3xl lg:text-5xl  text-pink-800 mb-6">
         Where you want to visit?
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
