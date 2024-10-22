@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div>
       <NavBar />
-      <div className="mx-8 lg:mx-32">
+      <div className="mx-2 lg:mx-52">
         <HeroSection />
         {/* <Herosectwo /> */}
         <HeroSectionTwoTest />
