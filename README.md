@@ -1,5 +1,9 @@
 # Travel Ceylon
 
+## Screenshot
+
+![Travel](https://raw.githubusercontent.com/Supun-01/Travel-Ceylon/master/Screenshot/01.png)
+
 ## Installation
 
 **1. Install Dependencies:**
