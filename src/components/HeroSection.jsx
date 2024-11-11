@@ -6,7 +6,7 @@ import MyButton from "./subComponents/MyButton"
 
 function HeroSection() {
     return (
-        <div className="my-5">
+        <div className="my-5 lg:my-36">
             <div className="flex flex-wrap">
 
                 <div className="w-full lg:w-1/2 lg:pr-5">
