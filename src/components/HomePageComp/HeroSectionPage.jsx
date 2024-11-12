@@ -2,6 +2,7 @@ import HeroSection from './HeroSection'
 import HeroSectionTwoTest from './HeroSectionTwoTest'
 import NavBar from '../../components/NavBar'
 import Footer from '../../components/Footer'
+import CardContainer from '../CardComponents/CardContainer'
 
 function HeroSectionPage() {
     return (
@@ -9,6 +10,7 @@ function HeroSectionPage() {
             <NavBar />
             <HeroSection />
             <HeroSectionTwoTest />
+            <CardContainer/>
             <Footer />
         </div>
     )
