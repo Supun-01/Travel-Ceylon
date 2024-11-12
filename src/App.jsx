@@ -3,6 +3,7 @@ import CardContainer from "./components/CardComponents/CardContainer";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import HeroSectionTwoTest from "./components/HeroSectionTwoTest";
+import PaymentForm from "./components/PaymentComponents/PaymentForm";
 
 export default function App() {
   return (
@@ -15,6 +16,11 @@ export default function App() {
         <CardContainer />
 
       </div>
+      <Footer />
+
+      <br/>
+      <NavBar />
+      <PaymentForm/>
       <Footer />
     </div>
   )
