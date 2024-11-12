@@ -1,8 +1,8 @@
-import { HeroSectionContent } from "../assets/text/textContent"
-import GalleImg from '../assets/text/01.jpg'
-import SigiriyaImg from '../assets/text/02.jpg'
-import EllaImg from '../assets/text/03.jpg'
-import MyButton from "./subComponents/MyButton"
+import { HeroSectionContent } from "../../assets/text/textContent"
+import GalleImg from '../../assets/text/01.jpg'
+import SigiriyaImg from '../../assets/02.jpg'
+import EllaImg from '../../assets/text/03.jpg'
+import MyButton from "../subComponents/MyButton"
 
 function HeroSection() {
     return (
