@@ -6,7 +6,7 @@ function ContactUs() {
         <div>
             <NavBar />
 
-            <div className='my-20'>
+            <div className='py-5 px-5 lg:px-20 lg:py-4'>
                 <div className="flex flex-wrap w-full items-center">
 
                     <div className="w-full md:w-1/2">
