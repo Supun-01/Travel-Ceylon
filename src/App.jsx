@@ -1,12 +1,9 @@
-import CardComponent from './components/CardComponents/CardComponent'
-import CardContainer from './components/CardComponents/CardContainer'
-import HeroSectionPage from './components/HomePageComp/HeroSectionPage'
-import PaymentForm from './components/PaymentComponents/PaymentForm'
+import BookingPage from "./components/BookingPage/BookingPage"
 
 function App() {
   return (
     <div>
-      <PaymentForm />
+      <BookingPage />
     </div>
   )
 }
