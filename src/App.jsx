@@ -1,9 +1,10 @@
 import HeroSectionPage from './components/HomePageComp/HeroSectionPage'
+import PaymentForm from './components/PaymentComponents/PaymentForm'
 
 function App() {
   return (
     <div>
-      <HeroSectionPage />
+      <PaymentForm />
     </div>
   )
 }
