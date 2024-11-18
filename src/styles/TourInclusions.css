@@ -1,0 +1,63 @@
+.tour-inclusions {
+    background-color: #f4e6d8;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 900px;
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    margin: 0 auto;
+    position: relative; /* For positioning pseudo-elements */
+  }
+  
+  .tour-inclusions::before, .tour-inclusions::after {
+    content: '';
+    position: absolute;
+    width: 95%;  /* Reduced width (80% of the container's width) */
+    height: 1px; /* Line thickness */
+    background-color: #000000; /* Line color */
+    left: 50%; /* Center the lines */
+    transform: translateX(-50%); /* Ensure lines are centered */
+  }
+  
+  .tour-inclusions::before {
+    top: 0; /* Position line at the top */
+  }
+  
+  .tour-inclusions::after {
+    bottom: 0; /* Position line at the bottom */
+  }
+  
+  .inclusions-header {
+    color: #8B2635;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .inclusions-icon {
+    color: #8B2635;
+    margin-right: 8px;
+  }
+  
+  .inclusions-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.8;
+  }
+  
+  .inclusion-item {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+  }
+  
+  .check-icon {
+    color: #8B2635;
+    font-size: 1.2rem;
+    margin-right: 8px;
+  }
+  

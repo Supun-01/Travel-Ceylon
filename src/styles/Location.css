@@ -1,0 +1,48 @@
+.meeting-location {
+    background-color: #f4e6d8;
+    padding: 20px;
+    width: 900px;
+    margin: 0 auto;
+    
+    color: #8B174E;
+    text-align: left;
+
+    position: relative; /* For positioning pseudo-elements */
+}
+
+.meeting-location::before, .meeting-location::after {
+    content: '';
+    position: absolute;
+    width: 95%;  /* Reduced width (80% of the container's width) */
+    height: 1px; /* Line thickness */
+    background-color: #000000; /* Line color */
+    left: 50%; /* Center the lines */
+    transform: translateX(-50%); /* Ensure lines are centered */
+}
+
+.meeting-location::before {
+    top: 0; /* Position line at the top */
+}
+
+.meeting-location::after {
+    bottom: 0; /* Position line at the bottom */
+}
+
+.meeting-location h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #8B174E;
+}
+
+.meeting-location p {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.map-container {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}

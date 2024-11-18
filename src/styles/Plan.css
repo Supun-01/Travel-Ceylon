@@ -1,0 +1,53 @@
+.plan-container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #f4e6d8; /* Light beige */
+    padding: 20px;
+    
+}
+
+.plan-title {
+    font-size: 1.8em;
+    color: #a23177; /* Dark pink */
+    margin-bottom: 10px;
+}
+
+.plan-description {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.pickup-list {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+.pickup-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.pickup-icon {
+    font-size: 1.5em;
+    color: #a23177;
+    margin-right: 10px;
+}
+
+.pickup-content {
+    border-left: 2px solid #a23177;
+    padding-left: 10px;
+}
+
+.pickup-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.pickup-description {
+    color: #555;
+    font-size: 1em;
+    margin-top: 5px;
+}
