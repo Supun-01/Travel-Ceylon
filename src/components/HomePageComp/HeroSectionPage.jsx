@@ -7,13 +7,9 @@ import CardContainer from '../CardComponents/CardContainer'
 function HeroSectionPage() {
     return (
         <div>
-            <NavBar />
-            <div className='py-5 px-5 lg:px-20 lg:py-4'>
-                <HeroSection />
-                <HeroSectionTwoTest />
-                <CardContainer />
-            </div>
-            <Footer />
+            <HeroSection />
+            <HeroSectionTwoTest />
+            <CardContainer />
         </div>
     )
 }

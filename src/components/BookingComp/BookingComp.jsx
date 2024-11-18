@@ -6,13 +6,15 @@ import TourInclusions from "./TourInclusions"
 
 function BookingComp() {
     return (
-        <>
+
+        <div>
             <TourCard />
             <TourInclusions />
             <Plan />
             <MeetingLocation />
             <GuestReviews />
-        </>
+        </div>
+
     )
 }
 
