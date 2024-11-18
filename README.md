@@ -35,6 +35,7 @@ npm install
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 npm install react-icons --save
+npm install react-router-dom
 ```
 
 ### 3. Start the Development Server
@@ -51,7 +52,8 @@ npm run dev
 - **Tailwind CSS:** For styling and responsiveness.
 - **React Icons:** For adding icons throughout the website.
 
-![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black) 
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind%20CSS&logoColor=white) 
+![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind%20CSS&logoColor=white)
+![React Router](https://img.shields.io/badge/React%20Router-CA4245.svg?style=for-the-badge&logo=react-router&logoColor=white)
 
 ---
