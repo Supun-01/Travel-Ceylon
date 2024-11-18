@@ -1,12 +1,12 @@
 import React from 'react';
-import '../styles/Location.css';
+import '../../styles/Location.css';
 
 function MeetingLocation() {
     return (
         <div className="meeting-location">
             <h2>Where will we meet</h2>
             <p>We will meet at this location, and from there, the experience will start.</p>
-            
+
             <div className="map-container">
                 <iframe
                     title="Sri Lanka Map"

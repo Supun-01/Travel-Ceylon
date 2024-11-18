@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/TourInclusions.css';
+import '../../styles/TourInclusions.css';
 
 const TourInclusions = () => {
   return (
